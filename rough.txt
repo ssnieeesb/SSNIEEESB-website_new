@@ -1,0 +1,42 @@
+/* formatting used :
+	varaible naming : lowerCamelCase
+	function naming : UpperCamelCase
+	file/folder naming : lowerCamelCase, preferred only small
+*/
+
+Components:
+	Utilities:{Contact Us}
+	Home:{About Us, upcoming events,QuickLinks}
+	Events{past, upcoming}
+	
+	
+Pages:
+	Home:
+	Events
+	Team
+	Domain
+	Gallery
+	
+
+
+contact card{
+	post: {name, image, 
+	contactlinks:{
+	"Email":{hasmail:T/F,url:}
+	"Linkedin":{haslinkedin:True/F,url: }
+	"Github":{hasgithub:T/F,url:}
+	"Instagram":{}
+	}} 
+}
+
+
+Events{
+	description:{}
+	conductedBy
+	site:{hassite: ,url:}
+	poster:{hasposter: , url:}
+	date: { }
+	Time: { } //format
+	register: {hasregister: , url:}
+	
+}
