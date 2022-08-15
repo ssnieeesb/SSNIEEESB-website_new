@@ -1,0 +1,18 @@
+/* formatting used :
+        varaible naming : lowerCamelCase
+        function naming : UpperCamelCase
+        file/folder naming : lowerCamelCase, preferred only small
+    */
+
+import Head from "next/head";
+import Image from "next/image";
+
+export default function MenuItem({ url, name }) {
+  return (
+    <div class="inline p-5 text-[150%] m-10">
+      <a class="hover:bg-[#ddd] hover:text-[black]" href={url}>
+        {name}
+      </a>
+    </div>
+  );
+}
