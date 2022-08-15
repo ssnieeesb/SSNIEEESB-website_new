@@ -10,8 +10,8 @@ import Menu from "../utilities/menu";
 export default function Intro() {
   return (
     <div>
-      <div class="absolute inset-x-0  top-40">
-        <p class="text-center text-black font-bold text-lg font-mono border-0 caret-black">
+      <div className="absolute inset-x-0  top-40">
+        <p className="text-center text-black font-bold text-lg font-mono border-0 caret-black">
           {" "}
           IEEE Student Branch
         </p>

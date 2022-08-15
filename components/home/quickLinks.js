@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function QuickLinks({ url, name }) {
   return (
-    <a class="hover:bg-[#ddd] hover:text-[black]" href={url}>
+    <a className="hover:bg-[#ddd] hover:text-[black]" href={url}>
       {name}
     </a>
   );
