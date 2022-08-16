@@ -10,22 +10,22 @@ import MenuItem from "../utilities/menu-item";
 export default function Menu() {
   let menulist = [{ url: "/", text: "Home" }];
   return (
-    <div class="fixed overflow-hidden filter items-center">
+    <div className="fixed overflow-hidden filter items-center">
       <img
         src="/logo/ieee_transparent.png"
         layout="responsive"
         height="3%"
         width="6%"
-        class="inline"
+        className="inline"
       />
       <img
         src="/logo/ssn_logo_blue_transparent.png"
         layout="responsive"
         height="2%"
         width="4%"
-        class="inline"
+        className="inline"
       />
-      <nav class="shadow-lg float-right justify-content: justify-between">
+      <nav className="shadow-lg float-right justify-content: justify-between">
         <MenuItem url={"/"} name={"Home"}></MenuItem>
         <MenuItem url={"/events"} name={"Events"}></MenuItem>
         <MenuItem url={"/gallery"} name={"Gallery"}></MenuItem>
