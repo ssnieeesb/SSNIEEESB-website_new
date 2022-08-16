@@ -17,7 +17,7 @@ export default function Intro() {
         </p>
       </div>
       <img
-        style={{ height: "500px" }}
+        style={{ height: "500px", backgroundRepeat: "repeat" }}
         width="150%"
         height="10%"
         src="/assets/intro/SSN.jpg"
