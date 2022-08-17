@@ -9,13 +9,13 @@ import Image from "next/image";
 import Menu from "../utilities/menu";
 export default function Header() {
   return (
-    <div>
+    <div className="py-5 mb-2 w-screen   bg-[url('/assets/menu/menu.webp')]">
       <Head>
         <title>SSN IEEESB</title>
         <meta name="description" content="SSN IEEE Student Branch" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Menu></Menu>
     </div>
   );

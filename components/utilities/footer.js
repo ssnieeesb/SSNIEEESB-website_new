@@ -9,8 +9,10 @@ import Image from "next/image";
 
 export default function Footer({ url, name }) {
   return (
-    <a className="hover:bg-[#ddd] hover:text-[black]" href={url}>
-      {name}
-    </a>
+    <footer className="absolute left-0 text-red-300 bottom-10 p-30">
+      {/* TODO */}
+    </footer>
   );
 }
+
+//todo

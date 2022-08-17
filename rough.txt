@@ -32,11 +32,11 @@ contact card{
 
 Events{
 	description:{}
-	conductedBy
+	conductedBy:
 	site:{hassite: ,url:}
 	poster:{hasposter: , url:}
 	date: { }
 	Time: { } //format
 	register: {hasregister: , url:}
-	
+	onclick: {has:,url:}
 }

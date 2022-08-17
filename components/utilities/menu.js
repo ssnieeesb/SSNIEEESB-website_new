@@ -7,10 +7,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import MenuItem from "../utilities/menu-item";
+<link
+  href="https://fonts.googleapis.com/css?family=Indie Flower"
+  rel="stylesheet"
+></link>;
 export default function Menu() {
   let menulist = [{ url: "/", text: "Home" }];
   return (
-    <div className="fixed overflow-hidden filter items-center">
+    <div className="filter items-center">
       <img
         src="/logo/ieee_transparent.png"
         layout="responsive"
