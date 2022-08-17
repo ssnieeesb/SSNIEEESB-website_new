@@ -7,10 +7,16 @@
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../../components/utilities/header";
-export default function Home() {
+import Footer from "../../components/utilities/footer";
+
+export default function Gallery() {
   return (
-    <div>
+    <div className=" h-screen bg-[url('/assets/menu/menu.webp')] ">
       <Header></Header>
+      <div className="absolute bottom-1/2 left-[40%] text-red-500 text-5xl">
+        UPCOMING!!
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
