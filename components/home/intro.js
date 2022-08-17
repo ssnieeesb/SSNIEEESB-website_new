@@ -3,7 +3,7 @@
 	function naming : UpperCamelCase
 	file/folder naming : lowerCamelCase, preferred only small
 */
-
+import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Menu from "../utilities/menu";
@@ -26,16 +26,24 @@ function TExt() {
       </div>
       <div className="text-center">
         <ul className="text-green-200">
-          <li className="inline"> IEEE_EMBS</li>
+          <li className="inline">
+            <Link href="https://www.embs.org/">
+              <a>IEEE_EMBS</a>
+            </Link>
+          </li>
           <li className="inline">
             {" "}
             <span className=" bg-green-100 rounded-full mx-1">.</span>
-            IEEE_CS
+            <Link href="https://www.computer.org/">
+              <a>IEEE_CS</a>
+            </Link>
           </li>
           <li className="inline">
             {" "}
             <span className=" bg-green-100 rounded-full  mr-1">.</span>
-            IEEE_ComSoc
+            <Link href="https://www.comsoc.org/">
+              <a>IEEE_ComSoc</a>
+            </Link>
           </li>
         </ul>
       </div>
