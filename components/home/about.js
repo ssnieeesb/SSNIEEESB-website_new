@@ -9,8 +9,8 @@ import Image from "next/image";
 
 export default function About({ url, name }) {
   return (
-    <div className=" h-1/2 font-'indie Flower'">
-      {/* todo font change */}
+    <div className=" h-1/2">
+      {/* todo font change indie flower*/}
       <h1 className="text-blue-300 font-bold text-4xl">About Us</h1>
       <span className="font-mono">
         The IEEE student Branch of SSN Engineering College was formed on 2ND MAY

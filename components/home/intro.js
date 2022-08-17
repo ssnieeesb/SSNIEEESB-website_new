@@ -11,7 +11,7 @@ import Typewriter from "typewriter-effect";
 
 function IMage() {
   return (
-    <div className="py-10 mb-10">
+    <div className="pb-10 mb-10">
       <img className="float-right" src="/assets/intro/SSN.jpg" />
       {/* adjust height */}
     </div>
@@ -29,12 +29,12 @@ function TExt() {
           <li className="inline"> IEEE_EMBS</li>
           <li className="inline">
             {" "}
-            <span className=" bg-green-100 rounded-full p-0.2 mx-1">.</span>
+            <span className=" bg-green-100 rounded-full mx-1">.</span>
             IEEE_CS
           </li>
           <li className="inline">
             {" "}
-            <span className=" bg-green-100 rounded-full p-0.2 mr-1">.</span>
+            <span className=" bg-green-100 rounded-full  mr-1">.</span>
             IEEE_ComSoc
           </li>
         </ul>

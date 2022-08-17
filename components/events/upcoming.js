@@ -34,7 +34,7 @@ export default function Upcoming({ url, name }) {
       time: "9:30am to 1:00pm",
       registration: { has: false, url: null },
     },
-    ];
+  ];
   return (
     <div>
       <div className="text-3xl text-red-200 font-bold font-mono">
@@ -42,7 +42,7 @@ export default function Upcoming({ url, name }) {
       </div>
       <div className="flex w-screen justify-center rounded-md">
         {events.map((eventitem) => {
-          return <Event event={eventitem}></Event>;
+          return <Event key={eventitem.name} event={eventitem}></Event>;
         })}
       </div>
     </div>

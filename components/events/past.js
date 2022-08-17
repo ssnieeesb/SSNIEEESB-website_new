@@ -40,7 +40,7 @@ export default function Past({ url, name }) {
     <div>
       <div className="flex w-screen justify-center rounded-md">
         {events.map((eventitem) => {
-          return <Event event={eventitem}></Event>;
+          return <Event key={eventitem.name} event={eventitem}></Event>;
         })}
       </div>
     </div>
