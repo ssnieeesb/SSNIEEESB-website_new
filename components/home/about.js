@@ -28,10 +28,10 @@ export default function About({ url, name }) {
         global technical community and to technical professionals everywhere,
         and be universally recognized for the contributions of technology and of
         technical professionals in improving global conditions. IEEE is the
-        world’s largest technical professional society. It is designed to serve
+        world's largest technical professional society. It is designed to serve
         professionals involved in all aspects of the electrical, electronic and
         computing fields and related areas of science and technology that
-        underlie modern civilization. IEEE’s roots go back to 1884. There was
+        underlie modern civilization. IEEE's roots go back to 1884. There was
         one major established electrical industry, the telegraph, which had come
         to connect the world with a communications system faster than the speed
         of transportation. A second major area had only barely gotten
