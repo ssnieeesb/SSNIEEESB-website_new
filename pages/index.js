@@ -11,13 +11,18 @@ import Header from "../components/utilities/header";
 import Footer from "../components/utilities/footer";
 import Intro from "../components/home/intro";
 import About from "../components/home/about";
+import React, { useState, useEffect } from "react";
+
 export default function Home() {
+  useEffect(() => {
+    localStorage.theme = "dark";
+  }, []);
   return (
-    <div className="h-screen bg-[url('/assets/menu/menu.webp')] ">
-      <Header></Header>
+    <div className="h-screen">
+      <Header className="sticky top-0"></Header>
       <Intro></Intro>
-      <About></About>
-      <Footer></Footer>
+      {/* <About></About>
+      <Footer></Footer> */}
     </div>
   );
 }

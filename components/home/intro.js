@@ -47,7 +47,7 @@ function TExt() {
           </li>
         </ul>
       </div>
-      <div className="text-center text-2xl">
+      <div className="text-center text-2xl text-black dark:text-white ">
         <Typewriter
           options={{
             strings: ["Inspiring Students", "Imparting knowledge", "Zingo"],
@@ -64,9 +64,9 @@ function TExt() {
 
 export default function Intro() {
   return (
-    <div>
-      <IMage></IMage>
-      <TExt></TExt>
+    <div className="bg-[#f8fafc] bg-opacity-30 flex justify-center items-center p-1 m-3 rounded">
+      {/* <IMage></IMage> */}
+      <TExt className=""></TExt>
     </div>
   );
 }
