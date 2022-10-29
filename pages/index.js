@@ -19,10 +19,13 @@ export default function Home() {
   }, []);
   return (
     <div className="h-screen">
-      <Header className="sticky top-0"></Header>
-      <Intro></Intro>
-      {/* <About></About>
+      <div id="Background"></div>
+      <div className="Content">
+        <Header className="sticky top-0 "></Header>
+        <Intro className="rounded-xl"></Intro>
+        {/* <About></About>
       <Footer></Footer> */}
+      </div>
     </div>
   );
 }
