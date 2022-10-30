@@ -20,10 +20,10 @@ export default function Home() {
     localStorage.theme = "dark";
   }, []);
   return (
-    <div className="h-screen">
+    <div className="h-screen w-full">
       <div id="Background"></div>
       <div className="Content">
-        <Header className="sticky top-0 "></Header>
+        <Header className=""></Header>
         <Intro className="rounded-xl"></Intro>
         <About></About>
         <Events></Events>

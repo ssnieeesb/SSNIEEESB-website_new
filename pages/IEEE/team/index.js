@@ -16,7 +16,10 @@ import Footer from "../../../components/utilities/footer";
 
 export default function Team() {
   return (
-    <div className="h-screen   ">
+    <div
+      className="h-screen bg-black bg-opacity-50  justify-center items-center p-1 m-3 rounded-xl"
+      id="team"
+    >
       <Faculty></Faculty>
       <IEEE></IEEE>
       <IEEE_EMBS></IEEE_EMBS>
