@@ -6,12 +6,12 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../../components/utilities/header";
-import Intro from "../../components/home/intro";
-import About from "../../components/home/about";
-import Footer from "../../components/utilities/footer";
-import Past from "../../components/events/past";
-import Upcoming from "../../components/events/upcoming";
+import Header from "../utilities/header";
+import Intro from "../home/intro";
+import About from "../home/about";
+import Footer from "../utilities/footer";
+import Past from "./past";
+import Upcoming from "./upcoming";
 import Collapsible from "react-collapsible";
 
 function PastButton() {

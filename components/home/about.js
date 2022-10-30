@@ -9,10 +9,12 @@ import Image from "next/image";
 
 export default function About({ url, name }) {
   return (
-    <div className=" h-1/2">
+    <div className="bg-black bg-opacity-50  justify-center items-center p-1 m-3 rounded-xl">
       {/* todo font change indie flower*/}
-      <h1 className="text-blue-300 font-bold text-4xl">About Us</h1>
-      <span className="font-mono">
+      <h1 className="text-red-300 dark:text-blue-300 font-bold text-4xl">
+        About Us
+      </h1>
+      <div className="text-white font-mono  text">
         The IEEE student Branch of SSN Engineering College was formed on 2ND MAY
         1998.From then, there has been no looking back we have been very active
         and vibrant till this date. The Student Branch was started with 10
@@ -45,7 +47,7 @@ export default function About({ url, name }) {
         entities of IEEE s Affinity Group. IEEE publishes more than 148
         transactions, journals and magazines. The IEEE Xplore Digital Library
         has over three million documents, available for download and reference.
-      </span>
+      </div>
     </div>
   );
 }

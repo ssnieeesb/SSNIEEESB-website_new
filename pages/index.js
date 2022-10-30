@@ -12,6 +12,8 @@ import Footer from "../components/utilities/footer";
 import Intro from "../components/home/intro";
 import About from "../components/home/about";
 import React, { useState, useEffect } from "react";
+import Team from "./IEEE/team";
+import Events from "../components/events/events";
 
 export default function Home() {
   useEffect(() => {
@@ -23,8 +25,10 @@ export default function Home() {
       <div className="Content">
         <Header className="sticky top-0 "></Header>
         <Intro className="rounded-xl"></Intro>
-        {/* <About></About>
-      <Footer></Footer> */}
+        <About></About>
+        <Events></Events>
+        <Team></Team>
+        <Footer className="sticky bottom-0"></Footer>
       </div>
     </div>
   );
