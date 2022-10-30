@@ -22,10 +22,10 @@ function TExt() {
   return (
     <div className="h-full pb-20 mb-10">
       <div className="text-red-400 text-center text-6xl font-bold">
-        IEEE Branches
+        SSN IEEE Student Branches
       </div>
       <div className="text-center">
-        <ul className="text-green-200">
+        <ul className="text-[#3366CC] dark:text-green-200">
           <li className="inline">
             <Link href="https://www.embs.org/">
               <a>IEEE_EMBS</a>
@@ -33,21 +33,34 @@ function TExt() {
           </li>
           <li className="inline">
             {" "}
-            <span className=" bg-green-100 rounded-full mx-1">.</span>
+            <span className="bg-black dark:bg-green-100 text-black rounded-full mx-1">
+              .
+            </span>
             <Link href="https://www.computer.org/">
               <a>IEEE_CS</a>
             </Link>
           </li>
           <li className="inline">
             {" "}
-            <span className=" bg-green-100 rounded-full  mr-1">.</span>
+            <span className=" bg-black dark:bg-green-100 text-black rounded-full  mr-1">
+              .
+            </span>
             <Link href="https://www.comsoc.org/">
               <a>IEEE_ComSoc</a>
             </Link>
           </li>
+          <li className="inline">
+            {" "}
+            <span className=" bg-black dark:bg-green-100 text-black rounded-full  mr-1">
+              .
+            </span>
+            <Link href="https://www.comsoc.org/">
+              <a>IEEE_Photonics</a>
+            </Link>
+          </li>
         </ul>
       </div>
-      <div className="text-center text-2xl">
+      <div className="text-center text-2xl text-black dark:text-white ">
         <Typewriter
           options={{
             strings: ["Inspiring Students", "Imparting knowledge", "Zingo"],
@@ -64,9 +77,8 @@ function TExt() {
 
 export default function Intro() {
   return (
-    <div>
-      <IMage></IMage>
-      <TExt></TExt>
+    <div className="bg-[#f8fafc] bg-opacity-30 flex justify-center items-center p-1 m-3 rounded-xl">
+      <TExt className=""></TExt>
     </div>
   );
 }

@@ -36,11 +36,11 @@ export default function IEEE({ url, name }) {
     },
   ];
   return (
-    <div>
-      <div className="text-center text-3xl text-red-200 font-bold font-mono">
+    <div className="bg-[#f8fafc] bg-opacity-20  items-center p-1 m-3 rounded-xl">
+      <div className="text-center text-3xl text-red-500 font-bold font-mono">
         Faculty Members
       </div>
-      <div className="flex w-screen justify-center rounded-md">
+      <div className="rounded-md flex justify-center ">
         <Member className="m-1" member={members[0]}></Member>
       </div>
     </div>

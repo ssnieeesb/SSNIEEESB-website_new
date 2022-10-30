@@ -14,7 +14,7 @@ import MenuItem from "../utilities/menu-item";
 export default function Menu() {
   let menulist = [{ url: "/", text: "Home" }];
   return (
-    <div className="filter items-center">
+    <span className="inline ">
       <img
         src="/logo/ieee_transparent.png"
         layout="responsive"
@@ -29,12 +29,12 @@ export default function Menu() {
         width="4%"
         className="inline"
       />
-      <nav className="shadow-lg float-right justify-content: justify-between">
+      <span className="flex-auto">
         <MenuItem url={"/"} name={"Home"}></MenuItem>
         <MenuItem url={"/events"} name={"Events"}></MenuItem>
         <MenuItem url={"/gallery"} name={"Gallery"}></MenuItem>
         <MenuItem url={"/team"} name={"Team"}></MenuItem>
-      </nav>
-    </div>
+      </span>
+    </span>
   );
 }
