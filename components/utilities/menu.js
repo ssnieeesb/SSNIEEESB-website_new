@@ -14,7 +14,7 @@ import MenuItem from "../utilities/menu-item";
 export default function Menu() {
   let menulist = [{ url: "/", text: "Home" }];
   return (
-    <span className="inline ">
+    <div className="m-auto bg-[#f8fafc] h-10 bg-opacity-30 flex sticky top-0 rounded w-fit">
       <img
         src="/logo/ieee_transparent.png"
         layout="responsive"
@@ -31,10 +31,15 @@ export default function Menu() {
       />
       <span className="flex-auto">
         <MenuItem url={"/"} name={"Home"}></MenuItem>
-        <MenuItem url={"/events"} name={"Events"}></MenuItem>
-        <MenuItem url={"/gallery"} name={"Gallery"}></MenuItem>
-        <MenuItem url={"/team"} name={"Team"}></MenuItem>
+        <MenuItem url={"#events"} name={"Events"}></MenuItem>
+        <MenuItem
+          url={
+            "https://drive.google.com/drive/folders/15aaqQXSaWWBaMbf2PkpfO3mY6Jt-RSCr?usp=sharing"
+          }
+          name={"Gallery"}
+        ></MenuItem>
+        <MenuItem url={"#team"} name={"Team"}></MenuItem>
       </span>
-    </span>
+    </div>
   );
 }

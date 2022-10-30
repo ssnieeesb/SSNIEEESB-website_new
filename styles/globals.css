@@ -13,8 +13,8 @@
   width: 100%;
   height: 100%;
   /* Add the blur effect */
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   z-index: 1;
   /* Center and scale the image nicely */
   background-position: center;
@@ -23,11 +23,20 @@
 }
 .Content {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   left: 0;
   right: 0;
-  z-index: 9999;
-  margin-left: 20px;
-  margin-right: 20px;
+  z-index: 99;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+html,
+body {
+  width: fit-content;
 }
 a {
   color: inherit;

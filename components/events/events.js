@@ -24,7 +24,10 @@ function PastButton() {
 
 export default function Events() {
   return (
-    <div className="h-screen   ">
+    <div
+      id="events"
+      className="bg-black bg-opacity-50  justify-center items-center p-1 m-3 rounded-xl  "
+    >
       <Collapsible
         trigger={
           <div className=" text-3xl text-red-200 font-bold font-mono">

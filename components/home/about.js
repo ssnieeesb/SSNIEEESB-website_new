@@ -9,7 +9,10 @@ import Image from "next/image";
 
 export default function About({ url, name }) {
   return (
-    <div className="bg-black bg-opacity-50  justify-center items-center p-1 m-3 rounded-xl">
+    <div
+      id="about"
+      className="bg-black bg-opacity-50  justify-center items-center p-1 m-3 rounded-xl"
+    >
       {/* todo font change indie flower*/}
       <h1 className="text-red-300 dark:text-blue-300 font-bold text-4xl">
         About Us

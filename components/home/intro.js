@@ -77,7 +77,10 @@ function TExt() {
 
 export default function Intro() {
   return (
-    <div className="bg-[#f8fafc] bg-opacity-30 flex justify-center items-center p-1 m-3 rounded-xl">
+    <div
+      id="intro"
+      className="bg-[#f8fafc] bg-opacity-30 flex justify-center items-center p-1 m-3 rounded-xl"
+    >
       <TExt className=""></TExt>
     </div>
   );
