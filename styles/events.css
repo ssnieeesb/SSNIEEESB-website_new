@@ -1,0 +1,28 @@
+.upcoming__events {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    width: 30%;
+    margin-left: 12rem;
+    /* width: min-content; */
+  }
+  
+  .event__img {
+    border-radius: 2rem;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .event_desc {
+    color: var(--color-primary);
+  }
+  
+  .upcoming__events:hover {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+  }

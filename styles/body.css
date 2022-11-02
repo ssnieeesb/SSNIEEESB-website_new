@@ -1,0 +1,90 @@
+.facultyimg {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* margin-left: 2.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem; */
+  }
+  
+  .ieee_faculties {
+    text-align: center;
+    color: var(--color-primary);
+  }
+  
+  .core__members {
+    text-align: center;
+    margin-top: 2.5rem;
+    color: var(--color-primary);
+  }
+  
+  .members__list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+  
+  .member__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+  
+  .member__card:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+  }
+  
+  .img{
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .faculty__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    width: 20%;
+    margin-left: 25rem;
+  }
+  
+  .faculty__card:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: default;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 1024px) {
+    .faculty__card{
+      margin-left: 19.5rem;
+    }
+    .facultyimg{
+      margin-left: -2px;
+      width: 100px;
+      height: 100px;
+  
+    }
+  }
+  
+  /* SMALL DEVICES */
+  @media screen and (max-width: 600px) {
+    .faculty__card{
+      margin-left: 6.5rem;
+      padding-right: 8rem;
+    }
+    .members__list{
+      grid-template-columns: repeat(2,1fr)
+    }
+    section {
+      margin-top: 2rem;
+    }
+  }

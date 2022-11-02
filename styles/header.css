@@ -1,0 +1,59 @@
+.about__ssn {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+  }
+  
+  .ssn {
+    width: 320px;
+    height: 270px;
+    border-radius: 2rem;
+    margin-left: 15rem;
+  }
+  
+  .about {
+    margin-right: 6rem;
+  }
+  
+  .about__ieee {
+    text-align: center;
+  }
+  
+  .about__ieee > h2 {
+    color: var(--color-primary);
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .about__ieee > h3 {
+    margin: 0rem 20rem 0rem 20rem;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 1024px) {
+    .ssn {
+      margin-left: 3rem;
+      margin-top: 10rem;
+    }
+    .about {
+      margin-left: 2rem;
+    }
+  }
+  
+  /* SMALL DEVICES */
+  @media screen and (max-width: 600px) {
+    .about__ssn {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .ssn {
+      margin-left: 3rem;
+      margin-top: -1.5rem;
+    }
+    .about {
+      margin-right: 1rem;
+      margin-top: 2rem;
+    }
+    section {
+      margin-top: 6rem;
+    }
+  }
