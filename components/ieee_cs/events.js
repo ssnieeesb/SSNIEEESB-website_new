@@ -11,12 +11,12 @@ function Upcoming(){
     return(
         <section className="Events">
             <h2>Upcoming Events</h2>
-
+            <div className='events__list'>
         {    
             upcoming_events.map((e=>{
-                const img_path = "/assets/team/IEEE_CS/Events/" + e.image;
+                const img_path = e.image;
                 return (
-                    <div key={e.title} className="upcoming__events">
+                    <div key={e.title} className="event__card">
                         <Image src={img_path} height="300px" width="300px" alt="" className="event__img" />
                         <div className="event_desc">
                             <h1>{e.title}</h1>
@@ -35,6 +35,7 @@ function Upcoming(){
             }))
             
         }
+            </div>
         
         </section>
     );
@@ -47,11 +48,12 @@ function Past(){
     return(
         <section className="Events">
             <h2>Past Events</h2>
+            <div className='events__list'>
         {    
             past_events.map((e=>{
-                const img_path = "/assets/team/IEEE_CS/Events/" + e.image;
+                const img_path = e.image;
                 return (
-                    <div key={e.title} className="upcoming__events">
+                    <div key={e.title} className="event__card">
                         <Image src={img_path} height="300px" width="300px" alt="" className="event__img" />
                         <div className="event_desc">
                             <h1>{e.title}</h1>
@@ -70,6 +72,7 @@ function Past(){
             }))
             
         }
+            </div>
         
         </section>
     );
