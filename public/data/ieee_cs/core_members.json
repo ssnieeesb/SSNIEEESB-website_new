@@ -1,7 +1,137 @@
-{
-    "chair" : "Anni Priscilla",
-    "vice_chair" : "Karthik Raja A",
-    "secretary" : "Shreya",
-    "joint_secretary" : "Nusaiba Afsheen",
-    "treasurer" : "Anirudh A"
-}
+[
+    {
+        "name": "Anni Priscilla",
+        "image": "/assets/team/IEEE_CS/Heads/Chair.jpg",
+        "post": "Chair",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    },
+
+    {
+        "name": "Karthik Raja A",
+        "image": "/assets/team/IEEE_CS/Heads/Vice_Chair.jpg",
+        "post": "Vice Chair",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    },
+
+    {
+        "name": "Shreya",
+        "image": "/assets/team/IEEE_CS/Heads/Secretary.jpg",
+        "post": "Secretary",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    },
+
+    {
+        "name": "Nusaiba Afsheen",
+        "image": "/assets/team/IEEE_CS/Heads/Joint_Secretary.jpg",
+        "post": "Joint Secretary",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    },
+
+    {
+        "name": "Anirudh A",
+        "image": "/assets/team/IEEE_CS/Heads/Treasurer.jpg",
+        "post": "Treasurer",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    }
+    
+]
