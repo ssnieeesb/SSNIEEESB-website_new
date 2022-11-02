@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header";
-import Body from "../../components/ieee_cs/main";
+import Body from "../../components/ieee_cs/core_members";
 import Footer from "../../components/footer";
 import Nav from "../../components/nav";
 import Navigation from "../../components/ieee_cs/navbar";
