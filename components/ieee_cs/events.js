@@ -16,7 +16,7 @@ function Upcoming(){
             upcoming_events.map((e=>{
                 const img_path = "/assets/team/IEEE_CS/Events/" + e.image;
                 return (
-                    <div className="upcoming__events">
+                    <div key={e.title} className="upcoming__events">
                         <Image src={img_path} height="300px" width="300px" alt="" className="event__img" />
                         <div className="event_desc">
                             <h1>{e.title}</h1>
@@ -51,7 +51,7 @@ function Past(){
             past_events.map((e=>{
                 const img_path = "/assets/team/IEEE_CS/Events/" + e.image;
                 return (
-                    <div className="upcoming__events">
+                    <div key={e.title} className="upcoming__events">
                         <Image src={img_path} height="300px" width="300px" alt="" className="event__img" />
                         <div className="event_desc">
                             <h1>{e.title}</h1>
