@@ -2,18 +2,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-import upcoming_events from '../../public/data/ieee_cs/upcoming_events.json';
-import past_events from '../../public/data/ieee_cs/past_events.json';
 
-
-function Upcoming(){
+function Upcoming({data}){
     // console.log(upcoming_events);
     return(
         <section className="Events">
             <h2>Upcoming Events</h2>
             <div className='events__list'>
         {    
-            upcoming_events.map((e=>{
+            data.map((e=>{
                 const img_path = e.image;
                 return (
                     <div key={e.title} className="event__card">
@@ -43,14 +40,14 @@ function Upcoming(){
 }
 
 
-function Past(){
+function Past({data}){
     // console.log(upcoming_events);
     return(
         <section className="Events">
             <h2>Past Events</h2>
             <div className='events__list'>
         {    
-            past_events.map((e=>{
+            data.map((e=>{
                 const img_path = e.image;
                 return (
                     <div key={e.title} className="event__card">

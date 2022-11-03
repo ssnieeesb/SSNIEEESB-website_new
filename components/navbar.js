@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Navigation = () =>{
+const Navigation = ({team_home,events,gallery}) =>{
   return (
     <div>
       <div className="navbar">
@@ -9,13 +9,18 @@ const Navigation = () =>{
         <div className="links">
           <ul>
             <li>
-              <Link href="/ieee_cs">
-                <h2 className="Linktext">IEEE_CS</h2>
+              <Link href={team_home}>
+                <h2 className="Linktext">Team Home</h2>
               </Link>
             </li>
             <li>
-              <Link href="/ieee_cs/events">
+              <Link href={events}>
                 <h2 className="Linktext">Events</h2>
+              </Link>
+            </li>
+            <li>
+              <Link href={gallery}>
+                <h2 className="Linktext">Gallery</h2>
               </Link>
             </li>
           </ul>

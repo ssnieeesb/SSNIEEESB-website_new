@@ -1,28 +1,26 @@
 import React from "react";
 import Header from "../../components/header";
-import Body from "../../components/ieee_cs/core_members";
+import CoreMembers from "../../components/core_members";
 import Footer from "../../components/footer";
 import Nav from "../../components/nav";
-import Navigation from "../../components/ieee_cs/navbar";
+import Navigation from "../../components/navbar";
+import members_data from "../../public/data/ieee_cs/core_members.json"
+import Head from "next/head";
 
 function IEEE_CS() {
     return (
         <>
-            <Navigation></Navigation>
+            <Head>
+                <title>IEEE_CS</title>
+            </Head>
+            <Navigation team_home="/ieee_cs" events="/ieee_cs/events" gallery="/ieee_cs/gallery"></Navigation>
             <Header></Header>
             <Nav></Nav>
-            
-            <Body></Body>
-            <Footer></Footer>
-            
+            <CoreMembers core_members={members_data} team="CS"></CoreMembers>
+            <Footer></Footer>   
         </>
-
-
-
     )
-
 }
-
 
 export default IEEE_CS;
 
