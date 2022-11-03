@@ -5,6 +5,27 @@ import { VscDebugDisconnect } from 'react-icons/vsc';
 
 import { useState } from 'react';
 
+const NavAcross = () => {
+  const [activeNav, setActiveNav] = useState('#');
+  return (
+    <nav id="across_nav">
+      <a href="/ieee_cs">
+        CS
+      </a>
+      <a href="/ieee_photonics">
+        PHOTONICS
+      </a>
+      <a href="/ieee_embs">
+        EMBS
+      </a>
+      <a href="/ieee_comsoc">
+        COMSOC
+      </a>
+    </nav>
+  );
+}
+
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
@@ -31,7 +52,9 @@ const Nav = () => {
         <VscDebugDisconnect />
       </a>
     </nav>
+
+
   );
 };
 
-export default Nav;
+export { NavAcross, Nav };
