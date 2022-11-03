@@ -2,25 +2,32 @@ import React from 'react';
 import { IoIosSchool } from 'react-icons/io';
 import { RiTeamLine } from 'react-icons/ri';
 import { VscDebugDisconnect } from 'react-icons/vsc';
-
+import Link from 'next/link';
 import { useState } from 'react';
 
 const NavAcross = () => {
-  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav id="across_nav">
-      <a href="/ieee_cs">
-        CS
-      </a>
-      <a href="/ieee_photonics">
-        PHOTONICS
-      </a>
-      <a href="/ieee_embs">
-        EMBS
-      </a>
-      <a href="/ieee_comsoc">
-        COMSOC
-      </a>
+      <Link href="/ieee_cs">
+        <a>
+          CS
+        </a>
+      </Link>
+      <Link href="/ieee_photonics">
+        <a>
+          PHOTONICS
+        </a>
+      </Link>
+      <Link href="/ieee_embs">
+        <a>
+          EMBS
+        </a>
+      </Link>
+      <Link href="/ieee_comsoc">
+        <a>
+          COMSOC
+        </a>
+      </Link> 
     </nav>
   );
 }
