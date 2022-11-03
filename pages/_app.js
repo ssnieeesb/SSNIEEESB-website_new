@@ -22,7 +22,13 @@ function MyApp({ Component, pageProps }) {
 	Router.events.on('routeChangeComplete', (url)=>{
 		NProgress.done();
 	})
-	return <Component {...pageProps} />
+	return (
+	<>
+		<Component {...pageProps} />
+		<Head>
+			<link rel="icon" href="/icons/favicon.ico" />
+		</Head>
+	</>)
 }
 
 export default MyApp
