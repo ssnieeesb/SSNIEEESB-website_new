@@ -1,0 +1,30 @@
+[
+
+    {
+        "name": "Anirudh A",
+        "image": "/assets/team/ieee_photonics/heads/Treasurer.jpg",
+        "post": "Treasurer",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    }
+    
+]

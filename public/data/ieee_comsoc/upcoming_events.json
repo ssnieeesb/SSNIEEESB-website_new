@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Upcoming event",
+        "description" : "Dummy description",
+        "date" : "Oct 20",
+        "venue" : "SSN",
+        "image" : "/assets/team/ieee_comsoc/events/Tect.jpeg"
+    }
+
+]

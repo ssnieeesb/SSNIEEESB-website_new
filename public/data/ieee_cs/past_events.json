@@ -1,23 +1,12 @@
 [
+
     {
-        "title" : "dfdf",
-        "description" : "empty desc",
-        "date" : "empyt date",
-        "venue" : "chennai"
-        
-    },
-    {
-        "title" : "dfdf",
-        "description" : "empty desc",
-        "date" : "empyt date",
-        "venue" : "chennai"
-        
-    },
-    {
-        "title" : "dfdf",
-        "description" : "empty desc",
-        "date" : "empyt date",
-        "venue" : "chennai"
-        
+        "title" : "Mejorar",
+        "description" : "Description here",
+        "date" : "Date here",
+        "venue" : "Location",
+        "image" : "/assets/team/ieee_cs/events/Mejorar.jpg"
     }
+
+
 ]

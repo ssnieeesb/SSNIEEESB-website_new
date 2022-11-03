@@ -1,7 +1,7 @@
 [
     {
         "name": "Anni Priscilla",
-        "image": "/assets/team/IEEE_CS/Heads/Chair.jpg",
+        "image": "/assets/team/ieee_cs/heads/Chair.jpg",
         "post": "Chair",
         "contact": {
             "email": { 
@@ -28,7 +28,7 @@
 
     {
         "name": "Karthik Raja A",
-        "image": "/assets/team/IEEE_CS/Heads/Vice_Chair.jpg",
+        "image": "/assets/team/ieee_cs/heads/Vice_Chair.jpg",
         "post": "Vice Chair",
         "contact": {
             "email": { 
@@ -55,7 +55,7 @@
 
     {
         "name": "Shreya",
-        "image": "/assets/team/IEEE_CS/Heads/Secretary.jpg",
+        "image": "/assets/team/ieee_cs/heads/Secretary.jpg",
         "post": "Secretary",
         "contact": {
             "email": { 
@@ -82,7 +82,7 @@
 
     {
         "name": "Nusaiba Afsheen",
-        "image": "/assets/team/IEEE_CS/Heads/Joint_Secretary.jpg",
+        "image": "/assets/team/ieee_cs/heads/Joint_Secretary.jpg",
         "post": "Joint Secretary",
         "contact": {
             "email": { 
@@ -109,7 +109,7 @@
 
     {
         "name": "Anirudh A",
-        "image": "/assets/team/IEEE_CS/Heads/Treasurer.jpg",
+        "image": "/assets/team/ieee_cs/heads/Treasurer.jpg",
         "post": "Treasurer",
         "contact": {
             "email": { 
