@@ -38,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url('../public/bg_texture.png');
+    background-image: url('../public/icons/bg_texture.png');
 }
 
 /* General Styles */
