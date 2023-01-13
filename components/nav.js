@@ -8,6 +8,11 @@ import { useState } from 'react';
 const NavAcross = () => {
   return (
     <nav id="across_nav">
+      <Link href="/ieee">
+        <a>
+        🏠 Home
+        </a>
+      </Link>
       <Link href="/ieee_cs">
         <a>
           CS
