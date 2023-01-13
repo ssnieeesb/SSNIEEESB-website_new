@@ -13,21 +13,15 @@ import Intro from "../components/home/intro";
 import About from "../components/home/about";
 import React, { useState, useEffect } from "react";
 import Events from "../components/events/events";
+import IEEE from "./ieee/index.js";
 
 export default function Home() {
   useEffect(() => {
     localStorage.theme = "dark";
   }, []);
   return (
-    <div className="h-screen w-full">
-      <div id="Background"></div>
-      <div className="Content">
-        <Header className=""></Header>
-        <Intro className="rounded-xl"></Intro>
-        <About></About>
-        <Events></Events>
-        <Footer className="sticky bottom-0"></Footer>
-      </div>
-    </div>
+    <>
+        <IEEE></IEEE>
+    </>
   );
 }
