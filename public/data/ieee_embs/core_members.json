@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Karthik Raja A",
+        "image": "/assets/team/ieee_embs/heads/Vice_Chair.jpg",
+        "post": "Vice Chair",
+        "contact": {
+            "email": { 
+                "has": false, 
+                "url": null
+            },
+
+            "linkedin": {
+                "has": false,
+                "url": null
+            },
+            "github": {
+                "has": false,
+                "url": null
+            },
+
+            "instagram": {
+                "has": false,
+                "url": null
+            }
+    
+        }
+    }
+    
+]

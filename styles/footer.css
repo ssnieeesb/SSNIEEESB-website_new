@@ -1,0 +1,47 @@
+.footer__body > h2{
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.socials > h2{
+    text-align: center;
+    color: var(--color-primary);
+    margin-top: 2rem;
+}
+
+.footer__socials{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+
+}
+
+.linked{
+    margin-left: 56.7rem;
+}
+
+.icons{
+    width:20px;
+    height: 20px;
+}
+
+/* Media queries */
+@media screen and (max-width: 1024px) {
+    .linked{
+        margin-left: 28rem;
+    }
+  }
+  
+  /* SMALL DEVICES */
+  @media screen and (max-width: 600px) {
+    .linked{
+        margin-left: 10rem;
+    }
+  
+    section {
+      margin-top: 16rem;
+    }
+  }
