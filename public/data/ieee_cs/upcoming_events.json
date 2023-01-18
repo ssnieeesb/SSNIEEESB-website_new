@@ -5,6 +5,13 @@
         "date" : "Oct 11",
         "venue" : "Central Seminar Hall (ECE)",
         "image" : "/assets/team/ieee_cs/events/Tect.jpeg"
+    },
+    {
+        "title": "SPAC",
+        "description" : "Student Profession Awareness Conference",
+        "date" : "To be announced",
+        "venue" : "To be announced",
+        "image" : "/assets/team/ieee_cs/events/MINDS.jpeg"
     }
 
     
