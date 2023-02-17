@@ -1,12 +1,16 @@
 [
-
     {
         "title" : "Mejorar",
         "description" : "Description here",
         "date" : "Date here",
         "venue" : "Location",
         "image" : "/assets/team/ieee_cs/events/Mejorar.jpg"
+    },
+    {
+        "title": "Fanatics",
+        "description" : "Slogging harder than clockwork? You have our respect. But wound and tense? That's no way to live. You've worked hard, now it's time to party hard. Blow some steam at the convention of Fanatics 2.0, THE non-tech event to join with your friends. You'll have 3 rounds to flex your pop culture/cinema addiction. Winners get a cash prize, of course.",
+        "date" : "Feb 2, 2023",
+        "venue" : "Mini Auditorium",
+        "image" : "/assets/team/ieee_cs/events/FANATICS.jpeg"
     }
-
-
 ]
